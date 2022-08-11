@@ -21,7 +21,7 @@ func TestUser_Validate(t *testing.T) {
 			isValid: true,
 		},
 		{
-			name: "with encrypted password",
+			name: "have encrypted password",
 			u: func() *model.User {
 				u := model.TestUser(t)
 				u.Password = ""

@@ -20,7 +20,7 @@ func New(config *Config) *Store {
 
 // Инициализация хранилища и попытка подключения к БД
 func (s *Store) Open() error {
-	db, err := sql.Open("postgres", s.config.DatabaseURL) //найти кака правильно указать драйвер для mysql
+	db, err := sql.Open("postgres", s.config.DatabaseURL) //найти как правильно указать драйвер для mysql
 	if err != nil {
 		return err
 	}
