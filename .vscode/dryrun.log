@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/VS Code Projects/Git Repositories/duty_checklist'
+make: Leaving directory 'c:/VS Code Projects/Git Repositories/duty_checklist'
+ 
+makefile:11: *** missing separator.  Stop.
+
