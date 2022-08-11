@@ -8,7 +8,7 @@ makefile:11: *** missing separator.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug 11 15:08:13 2022
+# Make data base, printed on Thu Aug 11 15:26:20 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ GOPATH = C:\Users\aleshekhva\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18252_OHPRCAGMIBAZWAOH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13356_KOWUNKACODUUSWZJ
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -85,7 +85,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 18252
+VSCODE_PID = 13356
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -211,8 +211,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 
 # Implicit Rules
 
-# 
- No implicit rules.
+# No implicit rules.
 
 # Files
 
@@ -268,6 +267,6 @@ makefile:
 # strcache performance: lookups = 31 / hit rate = 35%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Thu Aug 11 15:08:13 2022
+# Finished Make data base on Thu Aug 11 15:26:20 2022
 
  
