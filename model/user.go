@@ -7,10 +7,10 @@ import (
 )
 
 type User struct {
-	ID                int
-	Email             string
-	Password          string
-	EncryptedPassword string
+	ID                int    `json:"id"`
+	Email             string `json:"email"`
+	Password          string `json:"password,omitempty"`
+	EncryptedPassword string `json:"-"`
 }
 
 func (u *User) Validate() error {
@@ -21,6 +21,7 @@ func (u *User) Validate() error {
 	)
 }
 
+// BeforeCreate ...
 func (u *User) BeforeCreate() error {
 	if len(u.Password) > 0 {
 		enc, err := encryptString(u.Password)
@@ -32,6 +33,11 @@ func (u *User) BeforeCreate() error {
 	}
 
 	return nil
+}
+
+// Функция стирает приватные аттрибуты, чтобы не рендерить их во внешний мир
+func (u *User) Sanitize() {
+	u.Password = ""
 }
 
 func encryptString(s string) (string, error) {
