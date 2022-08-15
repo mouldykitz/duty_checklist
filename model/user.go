@@ -40,6 +40,11 @@ func (u *User) Sanitize() {
 	u.Password = ""
 }
 
+// Сравнение введенного пароля пользователя и зашифрованного пароля, хранящегося в БД
+func (u *User) ComparePassword(password string) bool {
+	return bcrypt.CompareHashAndPassword([]byte(u.EncryptedPassword), []byte(password)) == nil
+}
+
 func encryptString(s string) (string, error) {
 	b, err := bcrypt.GenerateFromPassword([]byte(s), bcrypt.MinCost)
 	if err != nil {

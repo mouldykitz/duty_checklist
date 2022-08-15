@@ -8,12 +8,10 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 12 15:03:06 2022
+# Make data base, printed on Mon Aug 15 12:41:00 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -24,6 +22,8 @@ USERPROFILE = C:\Users\aleshekhva
 LOCALAPPDATA = C:\Users\aleshekhva\AppData\Local
 # environment
 VSCODE_CWD = C:\Users\aleshekhva\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
 SYSTEMROOT = C:\Windows
 # environment
@@ -39,9 +39,7 @@ GOPATH = C:\Users\aleshekhva\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3148_ZUVAQEUKBJJNIXLO
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5060_VFEEFBILMHXXBPFS
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -89,7 +87,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3148
+VSCODE_PID = 5060
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -119,7 +117,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\TDM-GCC-64\bin;C:\Users\aleshekhva\scoop\shims;C:\Users\aleshekhva\AppData\Local\Microsoft\WindowsApps;C:\Users\aleshekhva\AppData\Local\atom\bin;C:\Users\aleshekhva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aleshekhva\go\bin
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\TDM-GCC-64\bin;C:\Program Files\TortoiseSVN\bin;C:\ProgramData\chocolatey\bin;C:\Users\aleshekhva\scoop\shims;C:\Users\aleshekhva\AppData\Local\Microsoft\WindowsApps;C:\Users\aleshekhva\AppData\Local\atom\bin;C:\Users\aleshekhva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aleshekhva\go\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -131,6 +129,8 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
+CHOCOLATEYLASTPATHUPDATE = 133050275310086437
+# environment
 LOGONSERVER = \\VRN-KRA-DC01
 # environment
 USERNAME = aleshekhva
@@ -141,7 +141,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # automatic
 +F = $(notdir $+)
 # environment
@@ -201,7 +201,7 @@ PROCESSOR_REVISION = 8e0c
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 # variable set hash-table stats:
-# Load=94/1024=9%, Rehash=0, Collisions=8/122=7%
+# Load=94/1024=9%, Rehash=0, Collisions=7/122=6%
 
 # Pattern-specific Variable Values
 
@@ -209,7 +209,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 
 # Directories
 
-# . (key c:/VS Code Projects/Git Repositories/duty_checklist, mtime 1660303905): 15 files, no impossibilities.
+# . (key c:/VS Code Projects/Git Repositories/duty_checklist, mtime 1660556295): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -274,6 +274,6 @@ makefile:
 # strcache performance: lookups = 32 / hit rate = 34%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Fri Aug 12 15:03:06 2022
+# Finished Make data base on Mon Aug 15 12:41:00 2022
 
  
